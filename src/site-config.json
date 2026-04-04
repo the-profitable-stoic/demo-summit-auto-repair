@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Summit Auto Repair",
+    "phone": "555-aut-r91",
+    "category": "auto-repair",
+    "city": "Memphis",
+    "state": "TN"
+  },
+  "design": {
+    "preset": {
+      "id": "auto-repair-mountain-bold",
+      "categoryGroup": "auto-repair",
+      "name": "Mountain Bold",
+      "recipeFile": "auto-repair/mountain-bold.astro",
+      "colors": {
+        "primary": "#991B1B",
+        "primaryDark": "#6b1313",
+        "primaryLight": "#e6c6c6",
+        "secondary": "#EF4444",
+        "accent": "#1F2937",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#991B1B",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "auto-repair/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Honest Auto Repair in Memphis",
+      "heroSubline": "Summit Auto Repair delivers reliable service for your vehicle. We treat every car like it's our own.",
+      "aboutTitle": "Trusted Auto Care Since 2012",
+      "aboutText": [
+        "Founded in 2012, Summit Auto Repair started as a small garage in East Memphis. Over the years, we've grown by focusing on honest diagnostics and fair pricing.",
+        "Our technicians use manufacturer-recommended procedures, not shortcuts. We explain repairs in plain terms so you can make informed decisions.",
+        "As Memphis natives, we understand how Mississippi River humidity and summer heat affect vehicles. We're proud to support local schools and youth sports teams."
+      ],
+      "valueProps": [
+        {
+          "title": "Same-Day Diagnostics",
+          "description": "Get a clear assessment of your vehicle's issues without waiting days for answers."
+        },
+        {
+          "title": "Local Parts Network",
+          "description": "We source quality parts from trusted Memphis suppliers to keep costs down."
+        },
+        {
+          "title": "Loaner Cars Available",
+          "description": "Borrow a vehicle while we work on yours for no extra charge on major repairs."
+        },
+        {
+          "title": "12-Month Warranties",
+          "description": "All repairs come with a warranty because we stand behind our work."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Repair Today",
+      "ctaSubline": "Call 555-AUT-R91 or stop by our shop on Summer Avenue."
+    },
+    "services": [
+      {
+        "slug": "brake-repair",
+        "name": "Brake Repair",
+        "shortDescription": "Complete brake inspections and repairs to keep you safe on Memphis roads.",
+        "description": "Memphis' stop-and-go traffic on Poplar Avenue and I-240 wears down brake components faster than highway driving. We test rotors for warping from heat buildup, check caliper function, and measure pad thickness.\n\nOur brake service includes resurfacing or replacing rotors as needed, installing quality pads, and flushing old fluid. We adjust parking brakes properly for Memphis' hilly neighborhoods like Harbor Town.\n\nAfter repairs, we road test vehicles on routes with steep grades near the Mississippi River to ensure proper stopping power.",
+        "process": [
+          "Step 1: Measure pad thickness and rotor condition",
+          "Step 2: Test brake fluid moisture content",
+          "Step 3: Remove wheels and inspect calipers",
+          "Step 4: Replace components and bleed system"
+        ],
+        "benefits": [
+          "Quieter stopping in city traffic",
+          "Faster response in emergency situations",
+          "Smoother pedal feel",
+          "Longer component life"
+        ],
+        "faq": [
+          {
+            "question": "How often should Memphis drivers replace brake pads?",
+            "answer": "Every 30,000-45,000 miles depending on driving habits. Downtown commuters need more frequent changes than suburban drivers."
+          },
+          {
+            "question": "Why do my brakes squeak after rain?",
+            "answer": "Morning humidity near the river causes temporary surface rust on rotors. Persistent noise indicates worn components."
+          }
+        ]
+      },
+      {
+        "slug": "engine-diagnostics",
+        "name": "Engine Diagnostics",
+        "shortDescription": "Advanced computer scans to pinpoint engine issues accurately.",
+        "description": "Modern vehicles have complex computer systems that require specialized tools to diagnose. We use OEM-grade scanners to read trouble codes from your vehicle's ECU, not just generic code readers.\n\nMemphis' summer heat stresses cooling systems and can trigger false sensor readings. We perform live data monitoring during test drives to see how systems behave in real conditions.\n\nFor intermittent issues common in older Memphis vehicles, we can install data loggers to track problems that don't trigger check engine lights. This helps diagnose electrical gremlins in historic neighborhoods where wiring ages faster.",
+        "process": [
+          "Step 1: Connect to OBD-II port",
+          "Step 2: Retrieve stored and pending codes",
+          "Step 3: Monitor live sensor data",
+          "Step 4: Perform component tests"
+        ],
+        "benefits": [
+          "Accurate problem identification",
+          "No unnecessary part replacements",
+          "Faster repair turnaround",
+          "Detailed repair estimates"
+        ],
+        "faq": [
+          {
+            "question": "Why does my check engine light come on in Memphis summers?",
+            "answer": "Heat causes fuel vapor issues in older vehicles. We check evaporative systems for leaks that trigger false emissions codes."
+          },
+          {
+            "question": "Can you diagnose transmission problems too?",
+            "Answer": "Yes, our scanners access transmission control modules to identify shift solenoid or clutch pack issues."
+          }
+        ]
+      },
+      {
+        "slug": "ac-repair",
+        "name": "AC Repair",
+        "shortDescription": "Cooling system services for Memphis' humid summers.",
+        "description": "Driving without AC in Memphis isn't just uncomfortable—it's dangerous during heat advisories. We pressure test systems to find leaks in rubber hoses that dry out in our climate.\n\nOur AC service includes evacuating old refrigerant (properly disposed of), replacing receiver-driers clogged with moisture, and recharging with exact manufacturer specifications. We test compressor function under load to catch weak components before they fail.\n\nFor classic cars stored in Memphis garages, we offer R-12 to R-134a conversions that work better in stoplight traffic. We also install UV dye to make future leak detection easier.",
+        "process": [
+          "Step 1: Pressure test system",
+          "Step 2: Identify leaks with electronic detector",
+          "Step 3: Replace failed components",
+          "Step 4: Recharge with proper refrigerant"
+        ],
+        "benefits": [
+          "Colder air at idle",
+          "Reduced compressor strain",
+          "Lower humidity inside cabin",
+          "Longer system life"
+        ],
+        "faq": [
+          {
+            "question": "Why does my AC work sometimes in Memphis?",
+            "Answer": "Intermittent cooling usually indicates a failing clutch or low refrigerant causing the system to cut out."
+          },
+          {
+            "question": "How often should AC systems be serviced?",
+            "Answer": "Every 2 years to maintain efficiency. Older systems may need annual checks."
+          }
+        ]
+      },
+      {
+        "slug": "transmission-service",
+        "name": "Transmission Service",
+        "shortDescription": "Fluid changes and adjustments for smooth shifting.",
+        "description": "Memphis drivers put extra stress on transmissions with constant acceleration from traffic lights. We perform drain-and-fill services that replace more fluid than quick lube places.\n\nFor vehicles with over 100,000 miles, we install auxiliary transmission coolers to handle summer heat. Our service includes adjusting bands on older vehicles and resetting adaptive shift computers on newer models.\n\nWe test transmission function on hills near the Wolf River to ensure proper gear engagement. For problematic transmissions, we partner with local rebuilders instead of pushing unnecessary replacements.",
+        "process": [
+          "Step 1: Drain old fluid and inspect",
+          "Step 2: Replace filter if accessible",
+          "Step 3: Refill with correct fluid type",
+          "Step 4: Road test under load"
+        ],
+        "benefits": [
+          "Smoother acceleration",
+          "Reduced heat damage",
+          "Better fuel economy",
+          "Extended transmission life"
+        ],
+        "faq": [
+          {
+            "question": "How often should I change transmission fluid?",
+            "Answer": "Every 30,000 miles for most vehicles. Heavy city driving may require more frequent changes."
+          },
+          {
+            "question": "Why does my transmission slip when it's hot outside?",
+            "Answer": "Thinning fluid from heat causes pressure loss. We test line pressure to diagnose internal wear."
+          }
+        ]
+      },
+      {
+        "slug": "suspension-repair",
+        "name": "Suspension Repair",
+        "shortDescription": "Restoring ride quality on Memphis' uneven roads.",
+        "description": "Potholes on Union Avenue and winter freeze-thaw cycles wreck suspension components. We inspect ball joints, control arms, and struts for play that causes uneven tire wear.\n\nOur alignment service includes adjusting camber and toe to factory specs, then test driving on roads with crowned surfaces like Park Avenue. We check steering components for looseness that makes highway driving tiring.\n\nFor trucks used on Memphis construction sites, we upgrade to heavy-duty shocks. We also install protective boots on tie rods to prevent dirt intrusion from unpaved lots.",
+        "process": [
+          "Step 1: Lift vehicle and check for play",
+          "Step 2: Measure alignment angles",
+          "Step 3: Replace worn components",
+          "Step 4: Road test on varied surfaces"
+        ],
+        "benefits": [
+          "Tighter steering response",
+          "Reduced body roll",
+          "Even tire wear",
+          "Improved handling"
+        ],
+        "faq": [
+          {
+            "question": "Why does my car pull after hitting a Memphis pothole?",
+            "Answer": "Impact likely bent a control arm or knocked alignment out of spec. We check for hidden damage."
+          },
+          {
+            "question": "How long do struts typically last here?",
+            "Answer": "About 70,000 miles with our road conditions. Leaking fluid or bottoming out means replacement is due."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "Brake Repair",
+        "text": "They replaced my warped rotors and installed ceramic pads. My truck finally stops smoothly when coming down the I-40 ramp at Danny Thomas.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Latoya M.",
+        "rating": 5,
+        "service": "AC Repair",
+        "text": "Found the leak in my compressor seal that three other shops missed. Now my AC blows cold even sitting in traffic on Elvis Presley Blvd.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Robert K.",
+        "rating": 5,
+        "service": "Transmission Service",
+        "text": "Adjusted the bands on my old Silverado and it shifts like new again. Saved me from needing a rebuild right before summer.",
+        "date": "2025-04-02"
+      },
+      {
+        "name": "Susan P.",
+        "rating": 5,
+        "service": "Engine Diagnostics",
+        "text": "They diagnosed my random stalling issue as a bad crank sensor. No more getting stranded at Shelby Farms.",
+        "date": "2025-01-17"
+      },
+      {
+        "name": "Marcus D.",
+        "rating": 5,
+        "service": "Suspension Repair",
+        "text": "Replaced my worn out struts and aligned it perfectly. Car handles the curves on Riverside Drive like it's on rails now.",
+        "date": "2025-03-30"
+      },
+      {
+        "name": "Elena R.",
+        "rating": 5,
+        "service": "AC Repair",
+        "text": "Fixed my electrical issue causing the AC to cut out. Their loaner car got me through the heat wave while they worked on it.",
+        "date": "2025-04-10"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Memphis Auto Repair Shop | Summit Auto Repair",
+        "description": "Honest auto repair services in Memphis, TN. Brakes, AC, transmission and engine diagnostics from local experts."
+      },
+      "about": {
+        "title": "About Our Memphis Auto Repair Shop",
+        "description": "Learn why Summit Auto Repair has been trusted by Memphis drivers since 2012. Our approach to honest car care."
+      },
+      "services": {
+        "title": "Auto Repair Services in Memphis, TN",
+        "description": "Complete auto repair services for Memphis vehicles. Brakes, suspension, AC, transmission and engine diagnostics."
+      },
+      "contact": {
+        "title": "Contact Summit Auto Repair in Memphis",
+        "description": "Schedule your auto repair service in Memphis. Call 555-AUT-R91 or visit our Summer Avenue shop."
+      },
+      "reviews": {
+        "title": "Memphis Auto Repair Customer Reviews",
+        "description": "See what Memphis drivers say about their experiences with Summit Auto Repair services."
+      },
+      "service-areas": {
+        "title": "Memphis Auto Repair Service Areas",
+        "description": "We serve Memphis and surrounding Tennessee communities with reliable auto repair services."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Memphis",
+        "slug": "memphis-tn",
+        "state": "TN",
+        "content": "Summit Auto Repair proudly serves the Memphis community with top-quality auto repair services. Whether you need routine maintenance, brake repairs, or engine diagnostics, our experienced technicians are here to keep your vehicle running smoothly. As a trusted local auto shop, we understand the importance of reliable transportation in a bustling city like Memphis. We offer competitive pricing, honest diagnostics, and fast turnaround times to minimize downtime for our customers. Our convenient location makes it easy for Memphis residents to access professional auto care without the hassle.",
+        "localContext": "Memphis is a major metropolitan hub with a mix of urban commuters and suburban drivers, requiring dependable auto services.",
+        "nearbyAreas": [
+          "Bartlett",
+          "Germantown",
+          "Collierville"
+        ]
+      },
+      {
+        "city": "Bartlett",
+        "slug": "bartlett-tn",
+        "state": "TN",
+        "content": "Summit Auto Repair is your go-to auto service provider in Bartlett, TN. We specialize in comprehensive vehicle maintenance and repairs for all makes and models. Our team understands the needs of Bartlett's growing suburban community, where families rely on their vehicles for daily commutes and activities. From oil changes to transmission repairs, we provide honest assessments and quality workmanship. Many Bartlett residents choose us for our transparent pricing and commitment to customer satisfaction.",
+        "localContext": "Bartlett offers a suburban lifestyle with easy access to Memphis, creating demand for reliable auto maintenance services.",
+        "nearbyAreas": [
+          "Memphis",
+          "Lakeland",
+          "Arlington"
+        ]
+      },
+      {
+        "city": "Germantown",
+        "slug": "germantown-tn",
+        "state": "TN",
+        "content": "Germantown drivers trust Summit Auto Repair for their vehicle maintenance and repair needs. Our skilled technicians provide exceptional service for European, domestic, and Asian vehicles alike. We understand Germantown residents value quality and professionalism, which is why we maintain high standards in every service we perform. Whether you need scheduled maintenance or unexpected repairs, our team will get you back on Germantown's well-maintained roads quickly and safely.",
+        "localContext": "Germantown is an affluent suburb known for its excellent schools and community amenities, attracting vehicle owners who demand premium service.",
+        "nearbyAreas": [
+          "Collierville",
+          "Memphis",
+          "Cordova"
+        ]
+      },
+      {
+        "city": "Collierville",
+        "slug": "collierville-tn",
+        "state": "TN",
+        "content": "Summit Auto Repair brings expert auto care to Collierville residents and businesses. Our full-service shop handles everything from basic maintenance to complex repairs with precision and care. We recognize that Collierville's growing population needs dependable auto services that fit their busy schedules. Our team takes pride in building long-term relationships with customers through honest communication and reliable work. Whether you're commuting to Memphis or driving around Collierville's historic town square, we'll keep your vehicle performing at its best.",
+        "localContext": "Collierville combines historic charm with modern suburban growth, creating diverse automotive service needs.",
+        "nearbyAreas": [
+          "Germantown",
+          "Olive Branch",
+          "Byhalia"
+        ]
+      },
+      {
+        "city": "Cordova",
+        "slug": "cordova-tn",
+        "state": "TN",
+        "content": "Summit Auto Repair provides comprehensive auto services for Cordova residents and commuters. Located conveniently for the Cordova community, we offer everything from brake services to electrical system diagnostics. We understand Cordova's mix of residential neighborhoods and commercial areas creates unique vehicle service requirements. Our team stays current with the latest automotive technologies to properly service modern vehicles while still maintaining expertise in older models. Trust us for honest assessments and quality repairs that stand the test of time.",
+        "localContext": "Cordova serves as both a residential suburb and commercial corridor, with heavy vehicle traffic and diverse repair needs.",
+        "nearbyAreas": [
+          "Memphis",
+          "Bartlett",
+          "Germantown"
+        ]
+      },
+      {
+        "city": "Arlington",
+        "slug": "arlington-tn",
+        "state": "TN",
+        "content": "Arlington drivers choose Summit Auto Repair for dependable vehicle maintenance and repair services. We specialize in keeping your family's vehicles safe and reliable for Arlington's mix of rural and suburban driving conditions. Our technicians understand the importance of proper suspension and alignment for Arlington's roads, as well as the need for seasonal maintenance preparation. We offer personalized service plans to meet each customer's unique needs and budget. From quick oil changes to major repairs, we're committed to excellence in every service.",
+        "localContext": "Arlington offers a small-town feel with growing suburban development, requiring adaptable auto service solutions.",
+        "nearbyAreas": [
+          "Bartlett",
+          "Millington",
+          "Lakeland"
+        ]
+      },
+      {
+        "city": "Millington",
+        "slug": "millington-tn",
+        "state": "TN",
+        "content": "Summit Auto Repair is proud to serve Millington's automotive needs with professional, reliable service. We understand the importance of vehicle maintenance for Millington's military families, commuters, and local businesses. Our shop provides complete diagnostics and repair services to keep your vehicle operating safely and efficiently. Whether you're driving to the naval base or around town, we'll ensure your vehicle receives the care it deserves. We take extra care with trucks and SUVs that are popular in the Millington area.",
+        "localContext": "Millington's proximity to the naval base creates unique vehicle service demands from both military and civilian drivers.",
+        "nearbyAreas": [
+          "Arlington",
+          "Bartlett",
+          "Atoka"
+        ]
+      },
+      {
+        "city": "Lakeland",
+        "slug": "lakeland-tn",
+        "state": "TN",
+        "content": "Summit Auto Repair delivers exceptional auto care to Lakeland's growing community. We specialize in maintaining the performance and safety of vehicles for Lakeland's families and professionals. Our services range from preventive maintenance to complex repairs, all performed with attention to detail. We understand Lakeland residents value both quality and convenience, which is why we offer efficient service with minimal wait times. Trust our ASE-certified technicians to keep your vehicle running smoothly on Lakeland's scenic roads.",
+        "localContext": "Lakeland is known for its lakeside living and family-friendly atmosphere, attracting vehicle owners who prioritize reliability.",
+        "nearbyAreas": [
+          "Bartlett",
+          "Arlington",
+          "Germantown"
+        ]
+      },
+      {
+        "city": "Olive Branch",
+        "slug": "olive-branch-ms",
+        "state": "MS",
+        "content": "Summit Auto Repair extends our quality auto services to Olive Branch, MS, just across the Tennessee border. We help Olive Branch residents maintain their vehicles for commuting to Memphis or local driving. Our team is experienced with all major vehicle makes and models, providing comprehensive diagnostics and repairs. We understand the value of quick, dependable service for busy Olive Branch families and professionals. From routine maintenance to unexpected repairs, we're committed to keeping your vehicle in top condition.",
+        "localContext": "Olive Branch offers Mississippi residents convenient access to Memphis amenities, creating cross-state commuting patterns.",
+        "nearbyAreas": [
+          "Collierville",
+          "Byhalia",
+          "Hernando"
+        ]
+      },
+      {
+        "city": "Byhalia",
+        "slug": "byhalia-ms",
+        "state": "MS",
+        "content": "Summit Auto Repair provides reliable vehicle services for Byhalia residents and surrounding communities. We understand the importance of maintaining vehicles that travel between Mississippi and Tennessee regularly. Our shop offers complete auto care, from basic maintenance to advanced diagnostics and repairs. We take special care with trucks and agricultural vehicles common in the Byhalia area. Whether you're commuting to Memphis or driving locally, our team will keep your vehicle running safely and efficiently.",
+        "localContext": "Byhalia's rural character and proximity to Memphis create unique vehicle service requirements for residents and businesses.",
+        "nearbyAreas": [
+          "Collierville",
+          "Olive Branch",
+          "Holly Springs"
+        ]
+      },
+      {
+        "city": "Hernando",
+        "slug": "hernando-ms",
+        "state": "MS",
+        "content": "Summit Auto Repair serves Hernando, MS, with professional auto maintenance and repair services. We help Hernando residents keep their vehicles in excellent condition for commuting to Memphis or local driving. Our technicians are skilled in handling both modern computer-controlled systems and older vehicle technologies. We understand the seasonal maintenance needs of Mississippi vehicles and can prepare your car for any weather conditions. From quick tune-ups to major repairs, we provide honest assessments and quality workmanship.",
+        "localContext": "Hernando's historic downtown and growing suburbs create diverse automotive service needs for local drivers.",
+        "nearbyAreas": [
+          "Olive Branch",
+          "Southaven",
+          "Memphis"
+        ]
+      },
+      {
+        "city": "Southaven",
+        "slug": "southaven-ms",
+        "state": "MS",
+        "content": "Summit Auto Repair is proud to serve Southaven, MS, with comprehensive auto care services. We help Southaven residents maintain reliable transportation for work, school, and family activities. Our shop provides everything from basic oil changes to complex engine repairs, all performed by experienced technicians. We understand the heavy commuting traffic between Southaven and Memphis, so we prioritize safety inspections and preventive maintenance. Trust us for honest diagnostics and repairs that keep you moving safely on Mississippi and Tennessee roads.",
+        "localContext": "Southaven's position as a major Mississippi suburb of Memphis creates significant cross-border commuting traffic.",
+        "nearbyAreas": [
+          "Hernando",
+          "Memphis",
+          "Olive Branch"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "brake-repair": "/images/service-brake-repair.webp",
+      "engine-diagnostics": "/images/service-engine-diagnostics.webp",
+      "ac-repair": "/images/service-ac-repair.webp",
+      "transmission-service": "/images/service-transmission-service.webp",
+      "suspension-repair": "/images/service-suspension-repair.webp"
+    },
+    "servicesResponsive": {
+      "brake-repair": {
+        "src": "/images/service-brake-repair.webp",
+        "srcset": "/images/service-brake-repair-400w.webp 400w, /images/service-brake-repair-800w.webp 800w, /images/service-brake-repair-1200w.webp 1200w, /images/service-brake-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "engine-diagnostics": {
+        "src": "/images/service-engine-diagnostics.webp",
+        "srcset": "/images/service-engine-diagnostics-400w.webp 400w, /images/service-engine-diagnostics-800w.webp 800w, /images/service-engine-diagnostics-1200w.webp 1200w, /images/service-engine-diagnostics.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "ac-repair": {
+        "src": "/images/service-ac-repair.webp",
+        "srcset": "/images/service-ac-repair-400w.webp 400w, /images/service-ac-repair-800w.webp 800w, /images/service-ac-repair-1200w.webp 1200w, /images/service-ac-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "transmission-service": {
+        "src": "/images/service-transmission-service.webp",
+        "srcset": "/images/service-transmission-service-400w.webp 400w, /images/service-transmission-service-800w.webp 800w, /images/service-transmission-service-1200w.webp 1200w, /images/service-transmission-service.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "suspension-repair": {
+        "src": "/images/service-suspension-repair.webp",
+        "srcset": "/images/service-suspension-repair-400w.webp 400w, /images/service-suspension-repair-800w.webp 800w, /images/service-suspension-repair-1200w.webp 1200w, /images/service-suspension-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
